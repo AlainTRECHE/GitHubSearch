@@ -1,0 +1,32 @@
+.result-list {
+  display: flex;
+  flex-wrap: wrap;
+  
+  }
+  .result-list__item {
+    background-color: #F8F8F9;
+    width: 30.3%;
+    height: 45rem;
+    margin: 1.5%;
+    border: solid 1px #BDC3C7;
+    margin-top: 1%;
+    border-radius: 4px;
+  }
+  .result-list__item__image {
+    width: 100%;
+    border-bottom: solid 1px #BDC3C7;
+  }
+  .result-list__item__text {
+    padding: 3%;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 3%;
+  }
+  span {
+    padding-left: 3%;
+    color:#BDC3C7;
+    font-weight: bold;
+  }
+  
